@@ -1,0 +1,21 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()" class="changeColor">HIT</button>
+        <button onclick="compareHouse()" class="changeColor">STAND</button>
+        <p id="hcards-el">House Cards:</p>
+        <p id="hsum-el"> House Sum:</p>
+        <script src="index.js"></script>
+        <div id="score-box">
+            <p id="score-el">Score: 0</p>
+        </div>
+        <p id="taunt"></p>
+    </body>
+</html>
